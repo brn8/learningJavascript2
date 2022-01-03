@@ -1,5 +1,5 @@
 //189. Rotate Array
-
+//one test case failed due to time exceeded
 function rotate(nums, k){
 	for(let i=0; i<k; i++){
 		for(let j=1; j<nums.length; j++){
